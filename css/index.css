@@ -187,15 +187,13 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.home .img-content {
-  width: 2500px;
-  padding: 0;
-  align-items: center;
+.home .intro {
+  color: #23293B;
 }
-@media (max-width: 500px) {
-  .home .img-content {
-    width: 90%;
-  }
+.home .intro img {
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 100px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -209,37 +207,37 @@ footer {
   width: 100%;
 }
 @media (max-width: 500px) {
-  .home .space-images {
-    width: 100%;
-    display: flex;
+  .home .space-images .sky {
+    display: none;
   }
 }
-.home img {
+@media (max-width: 500px) {
+  .home .space-images .launch {
+    display: none;
+  }
+}
+.home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
 }
 @media (max-width: 500px) {
-  .home img {
-    width: 100%;
+  .home .space-images img {
+    width: 90%;
+    margin: 20px auto;
   }
 }
-@media (max-width: 500px) {
-  .home img .img-2 .img-3 {
-    display: none;
-  }
-}
-.visit-planets {
+.home .visit-planets {
   padding: 15px;
 }
-.visit-planets h3 {
+.home .visit-planets h3 {
   margin-top: 11px;
 }
-.visit-planets p {
+.home .visit-planets p {
   margin-top: 13px;
 }
-.walk {
+.home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
@@ -247,21 +245,32 @@ footer {
   justify-content: center;
 }
 @media (max-width: 500px) {
-  .walk {
-    flex-direction: column;
+  .home .walk {
+    flex-direction: column-reverse;
+    padding: 20px 22px;
+    margin-top: 30px;
+  }
+}
+.home .walk .walk-text {
+  width: 50%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text {
     width: 100%;
   }
 }
-.walk .walk-text {
-  width: 50%;
-}
-.walk h3 {
+.home .walk .walk-text h3 {
   margin-bottom: 10px;
 }
-.walk p {
+@media (max-width: 500px) {
+  .home .walk .walk-text h3 {
+    margin-top: 20px;
+  }
+}
+.home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.walk .btn {
+.home .walk .walk-text .btn {
   border: 2px solid black;
   color: white;
   text-align: center;
@@ -271,22 +280,28 @@ footer {
   margin: 18px;
   padding: 15px;
 }
-.walk .btn:hover {
+.home .walk .walk-text .btn:hover {
   background-color: white;
   color: #22283A;
   cursor: pointer;
 }
-.walk-img {
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    padding: 20px 0;
+  }
+}
+.home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
 @media (max-width: 500px) {
-  .walk-img {
-    flex-direction: column-reverse;
+  .home .walk .walk-img {
     width: 100%;
+    margin: 0;
   }
 }
-.walk-img img {
+.home .walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
