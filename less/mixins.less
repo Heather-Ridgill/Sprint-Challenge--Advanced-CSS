@@ -1,1 +1,22 @@
 // Mixins Here
+
+.custom-btn() {
+        border: 2px solid black;
+        color: white;
+        text-align: center;
+        font-size: 23px;
+        border-radius: 25px;
+        background-color: @btn-bg-color;
+        margin: 18px;
+        padding:15px;
+
+&:hover{
+    background-color: white;
+    color: @btn-bg-color;
+    cursor: pointer;
+    }
+}
+
+.bordered-box (@width, @shuttle-gray) {
+    border: @width solid @shuttle-gray;
+}

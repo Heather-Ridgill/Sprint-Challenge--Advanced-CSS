@@ -1,4 +1,4 @@
-# Sprint Challenge: Advanced CSS - Space Walkers Web Page
+<!-- # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
 
@@ -25,7 +25,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 [Click here to review the home design](design-files/home-desktop.png)
 
 [Click here to review the mobile design](design-files/home-mobile.png)
-
+ -->
 ## Self-Study Questions
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
@@ -34,17 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive means that it doesnt matter what kind of device you are using (phone, tablet, computer) the site will automatically form to that device. 
+
+Adaptive usually means that there are already codes for each device that a user COULD be using but doesnt take effect until a user actually visits the website from that device and the sit will detect what website is being used and "adapt" to it! 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Desktop first means to design the website for the space of a desktop computer that when the user shortens the screen space- the layout will change geared towards mobile. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Using a percentage means its more accesable and wont overwrite the users brower. 62.5 is easy because you can multiply by 10. 1rem = 10px. 
+
 4. How would you describe preprocessing to someone new to CSS?
+
+its a system that makes writing code more simple. Using syntax with nesting and it makes organizing your code easier! With a preprocessing system - you will hardly use plain CSS because this will make your life a lot easier.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+My favorite would probably be the nesting feature -I LOVE to be organized and this makes it so my code can be easily seen in one area. 
+The most difficult for me to grasp is the changing from website to view on phone and tablet and where to place the @medias and what should go under it. 
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
-## Project Set Up
+<!-- ## Project Set Up
 
 Follow these steps to set up your project:
 
@@ -132,4 +145,4 @@ After finishing your required elements, you can push your work further. These go
 
 * [ ] Create a fixed navigation and add some opacity to the background
 
-* [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+* [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription -->
